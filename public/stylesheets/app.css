@@ -1,10 +1,11 @@
 body {
 	font-family: Roboto;
-  background: -webkit-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* W3C */
+	background-color: #FFF8DC;
+    /*background: -webkit-linear-gradient(90deg, #FFFFFF 10%, #EAECC6 90%); */
+    /*background:    -moz-linear-gradient(90deg, #FFFFFF 10%, #EAECC6 90%); */
+    /*background:     -ms-linear-gradient(90deg, #FFFFFF 10%, #EAECC6 90%); */
+    /*background:      -o-linear-gradient(90deg, #FFFFFF 10%, #EAECC6 90%); */
+    /*background:         linear-gradient(90deg, #FFFFFF 10%, #EAECC6 90%);*/
 }
 
 ul {
@@ -15,7 +16,7 @@ ul {
 
 
 h1 {
-	background: #2980b9;
+	background: #FF8C00;
 	color: white;
 	margin: 0;
 	padding: 10px 20px;
@@ -58,7 +59,7 @@ li:hover span {
 
 input {
 	font-size: 18px;
-	color: #2980b9;
+	color: #FF8C00;
 	background-color: #f7f7f7;
 	width: 100%;
 	padding: 13px 13px 13px 20px;
@@ -68,7 +69,7 @@ input {
 
 input:focus{
 	background: #fff;
-	border: 3px solid #2980b9;
+	border: 3px solid #FF8C00;
 	outline: none;
 }
 
