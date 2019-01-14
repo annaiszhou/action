@@ -5,7 +5,8 @@ var express = require("express"),
     expressSanitizer = require("express-sanitizer"),
     methodOverride = require('method-override');
     
-mongoose.connect("mongodb://localhost:27017/todolist_app", {useNewUrlParser: true});
+var url = process.env.DATABASEURL || "mongodb://localhost:27017/todolist_app"
+mongoose.connect(url, {useNewUrlParser: true});
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(expressSanitizer());
 app.set("view engine", "ejs");
